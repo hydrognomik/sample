@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import type { StateUpdater } from 'preact/hooks';
 
-import styles from './styles.scss';
+import * as styles from './styles.scss';
 
 type Props = {
     value: string;
@@ -13,10 +13,8 @@ type Props = {
 export const Input = (props: Props) => {
     const { onChange, ...rest } = props;
 
-    const handleChange = e => {
-        const target = e.target as HTMLInputElement;
-
-        onChange(e.target.value);
+    const handleChange = (e: h.JSX.TargetedEvent<HTMLInputElement>) => {
+        onChange((e.target as HTMLInputElement).value);
     };
 
     return (
