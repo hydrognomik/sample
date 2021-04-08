@@ -15,13 +15,17 @@
         "@babel/core": "^7.13.14",
         "@babel/preset-typescript": "^7.13.0",
         "@parcel/transformer-sass": "2.0.0-beta.2",
-        "@parcel/transformer-typescript-tsc": "^2.0.0-beta.2",
+        "@parcel/transformer-typescript-tsc": "^2.0.0-beta.1",
         "parcel": "^2.0.0-beta.2",
         "postcss": "^8.2.1",
         "prettier": "^2.2.1",
-        "typescript": "^4.2.3"
+        "typescript": "^3.9.9"
     },
     "dependencies": {
         "preact": "^10.5.13"
-    }
+    },
+    "browserslist": [
+        "> 0.2%",
+        "not dead"
+    ]
 }

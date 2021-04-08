@@ -1268,6 +1268,13 @@
   dependencies:
     "@parcel/types" "2.0.0-beta.2"
 
+"@parcel/plugin@2.0.0-nightly.637+f5962737":
+  version "2.0.0-nightly.637"
+  resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.0.0-nightly.637.tgz#270df8dd244fc74eff92ac1a4f663e413b9d7556"
+  integrity sha512-c+GDSHLZw6K0Sg5A29p6sf1rB5rZjN42CzoIZDSl84rgLkZIR1zxSKpmrKcKHxIUIKqiHgwNFM/AZako4WvG1Q==
+  dependencies:
+    "@parcel/types" "2.0.0-nightly.637+f5962737"
+
 "@parcel/reporter-cli@2.0.0-beta.2":
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@parcel/reporter-cli/-/reporter-cli-2.0.0-beta.2.tgz#367faf7dacf40141d56cc26fd02e59c40dbaf9f6"
@@ -1494,18 +1501,18 @@
     "@parcel/source-map" "2.0.0-alpha.4.21"
     sass "^1.32.4"
 
-"@parcel/transformer-typescript-tsc@^2.0.0-beta.2":
-  version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-tsc/-/transformer-typescript-tsc-2.0.0-beta.2.tgz#7b591fe908bc43f4876f0270f1c1de26c739718d"
-  integrity sha512-YyJFNA0MFoX2ooRZP1fcuTNl8WxRlmRTyCkZeplbJq9MO2AcVBt1dwhlzbuyNX231Wqre+QA2fO4fzjVnDLZJQ==
+"@parcel/transformer-typescript-tsc@^2.0.0-beta.1":
+  version "2.0.0-nightly.637"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-tsc/-/transformer-typescript-tsc-2.0.0-nightly.637.tgz#608170f48289e147325685e9d94e6f9cc9cba8d2"
+  integrity sha512-ArLDFzg74qBFAYaiBW12EhitV6ORowh1cFAAJ28FgEug5qLjppBaTrMIffNn0VrNEJRkQ8MCcvsOk3FivwdwWA==
   dependencies:
-    "@parcel/plugin" "2.0.0-beta.2"
-    "@parcel/ts-utils" "2.0.0-beta.2"
+    "@parcel/plugin" "2.0.0-nightly.637+f5962737"
+    "@parcel/ts-utils" "2.0.0-nightly.637+f5962737"
 
-"@parcel/ts-utils@2.0.0-beta.2":
-  version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@parcel/ts-utils/-/ts-utils-2.0.0-beta.2.tgz#e18698435e6bea6a3a6f9fd65078c8fe9b4bdec2"
-  integrity sha512-TGnvG+kLZYOU4LDtf4idwxmGmJQdj365a3UsVvsBH9BkQg8ucE92S93E7qei7J7ilacKz1I/evIkQvcMnQmh6w==
+"@parcel/ts-utils@2.0.0-nightly.637+f5962737":
+  version "2.0.0-nightly.637"
+  resolved "https://registry.yarnpkg.com/@parcel/ts-utils/-/ts-utils-2.0.0-nightly.637.tgz#59379d665eb191631d00a494c4208e4d5aad681f"
+  integrity sha512-UzBXtBD6gOlXiG5UX5eMLxBajr/JMHtPUyMljnwhvHXpRJYztNpG9D9n8K2jnj70NjMKB3xf0Tus2ul2Kz6ZcQ==
   dependencies:
     nullthrows "^1.1.1"
 
@@ -1513,6 +1520,11 @@
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@parcel/types/-/types-2.0.0-beta.2.tgz#39530f885a546ccc8759ba8b970440bb7aadc146"
   integrity sha512-ri2BPGAFDntQbA5p3m/4QgnEqWYToUMkAtLelXSPbwnTM0KARavTAwSRqz1xwTdXa8gQyv4SSV7xURwaPaZ3GA==
+
+"@parcel/types@2.0.0-nightly.637+f5962737":
+  version "2.0.0-nightly.637"
+  resolved "https://registry.yarnpkg.com/@parcel/types/-/types-2.0.0-nightly.637.tgz#d0efa9bf3be4e8f1ac74abbf27bca5aa9d8cd46b"
+  integrity sha512-xUweQY3VD1ukMjn1Cqi38SfiRhISKblxZcHI7XBIy60bD3uUE2jKqqp/BprjwftOA8LcP0cOSyqRjqokqjsBsQ==
 
 "@parcel/utils@2.0.0-beta.2":
   version "2.0.0-beta.2"
@@ -1653,9 +1665,9 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     color-convert "^2.0.1"
 
 anymatch@~3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.1.tgz#c55ecf02185e2469259399310c173ce31233b142"
-  integrity sha512-mM8522psRCqzV+6LhomX5wgp25YVibjh8Wj23I5RPkPppSVSjyKD2A2mBJmWGa+KN7f2D6LNh9jkBCeyLktzjg==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
+  integrity sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
@@ -5802,10 +5814,10 @@ type-fest@^0.20.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-typescript@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
-  integrity sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
+typescript@^3.9.9:
+  version "3.9.9"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.9.tgz#e69905c54bc0681d0518bd4d587cc6f2d0b1a674"
+  integrity sha512-kdMjTiekY+z/ubJCATUPlRDl39vXYiMV9iyeMuEuXZh2we6zz80uovNN2WlAxmmdE/Z/YQe+EbOEXB5RHEED3w==
 
 unbox-primitive@^1.0.0:
   version "1.0.1"
