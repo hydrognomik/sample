@@ -1,0 +1,24 @@
+@import '~/src/styles/indents.scss';
+@import '~/src/styles/colors.scss';
+
+.button {
+  background-color: $primary;
+  border: none;
+
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 600;
+  color: $white;
+
+  width: 100%;
+  border-radius: $indent2;
+  padding: $indent4;
+
+  &:hover {
+    opacity: .9;
+  }
+
+  &:active {
+    opacity: .95;
+  }
+}

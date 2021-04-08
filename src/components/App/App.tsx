@@ -1,7 +1,13 @@
-import { h } from "preact";
+import { h } from 'preact';
 
-import styles from "./styles.module.scss";
+import { AuthForm } from '~/src/components/AuthForm/AuthForm';
+
+import * as styles from './styles.scss';
 
 export const App = () => {
-  return <h1 className={styles.heading}>Hello, world!</h1>;
+    return (
+        <div className={styles.root}>
+            <AuthForm />
+        </div>
+    );
 };

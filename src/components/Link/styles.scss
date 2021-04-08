@@ -1,0 +1,11 @@
+@import '~/src/styles/colors.scss';
+
+.link {
+  text-decoration: none;
+  color: $primary;
+  font-weight: 600;
+
+  &:hover {
+    opacity: .9;
+  }
+}

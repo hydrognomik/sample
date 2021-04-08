@@ -1,9 +1,7 @@
 {
-  presets: [
-    "@parcel/babel-preset-env",
-    ["@babel/typescript", { jsxPragma: "h" }]
-  ],
-  plugins: [
-    ["@babel/transform-react-jsx", { pragma: "h" }]
-  ]
+    "presets": [
+        "@parcel/babel-preset-env",
+        ["@babel/typescript", { "jsxPragma": "h" }]
+    ],
+    "plugins": [["@babel/transform-react-jsx", { "pragma": "h" }]]
 }

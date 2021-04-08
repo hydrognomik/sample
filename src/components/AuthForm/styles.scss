@@ -1,0 +1,32 @@
+@import '~/src/styles/indents.scss';
+@import '~/src/styles/colors.scss';
+
+.root {
+  width: 100%;
+  max-width: 300px;
+  padding: $indent6;
+  margin: 0 $indent4;
+
+  border-radius: $indent2;
+  border-color: $grey;
+
+  background-color: $white;
+  box-shadow: 0 $indent1 $indent3 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.title {
+  font-size: $indent6;
+  font-weight: 400;
+  text-align: center;
+
+  margin: 0;
+  margin-bottom: $indent5;
+  padding: $indent1 0 14px;
+  border-bottom: $indent1 solid $grey;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}

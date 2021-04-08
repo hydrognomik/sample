@@ -1,0 +1,57 @@
+@import '~/src/styles/indents.scss';
+@import '~/src/styles/colors.scss';
+
+.root {
+  display: block;
+
+  font-size: inherit;
+
+  padding-left: 2em;
+  margin-bottom: $indent6;
+}
+
+.input {
+  position: absolute;
+  appearance: none;
+
+  &:checked + * .checkboxSquare {
+    fill: $primary;
+  }
+
+  &:focus + * .checkboxOutline {
+    fill: #4d90fe;
+  }
+
+  &:disabled + * .checkboxSquare {
+    stroke: $grey;
+  }
+
+  &:checked:disabled + * .checkboxSquare {
+    fill: $grey;
+  }
+}
+
+.checkbox {
+  position: absolute;
+
+  width: 1.4em;
+  height: 1.4em;
+  margin-left: -2em;
+  border-radius: $indent2;
+}
+
+.checkboxOutline {
+  fill: none;
+}
+
+.checkboxSquare {
+  fill: $white;
+  stroke: $primary;
+  stroke-width: $indent1;
+}
+
+.checkboxMark {
+  fill: none;
+  stroke: $white;
+  stroke-width: 3px;
+}
